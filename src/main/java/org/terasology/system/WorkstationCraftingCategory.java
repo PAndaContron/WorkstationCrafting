@@ -60,7 +60,7 @@ public class WorkstationCraftingCategory implements HelpCategory {
         TextRenderStyle titleRenderStyle = new TextRenderStyle() {
             @Override
             public Font getFont(boolean hyperlink) {
-                return Assets.getFont("engine:title").get();
+                return Assets.getFont("NotoSans-Regular-Medium").get();
             }
         };
         ParagraphRenderStyle titleParagraphStyle = new ParagraphRenderStyle() {
